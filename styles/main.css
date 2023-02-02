@@ -1,0 +1,79 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: rgb(24, 24, 24);
+}
+
+#features {
+  width: 100%;
+}
+
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0;
+}
+
+#features ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 6rem 10rem 0 10rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3rem auto;
+  grid-auto-rows: 1.5rem auto;
+  column-gap: 3rem;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.image {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  /* grid-row: 1 / 3 */
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* grid-column: 2 / 3 */
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+#youtube-video {
+  display: block;
+  border-radius: 5px;
+  border: 0.7rem solid rgb(0, 0, 0);
+}
+
+@media (max-width: 750px) {
+  #features ul {
+    padding: 3rem 0 0 0;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  .text {
+    text-align: center;
+    margin: 0 5rem;
+  }
+  #youtube-video {
+    width: 20rem;
+    height: 15rem;
+  }
+}

@@ -1,0 +1,38 @@
+#line {
+  margin: 0 2rem;
+  border: 0.5px solid rgb(109, 109, 109);
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  margin: 0 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+}
+
+footer li {
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+  color: rgb(177, 177, 177);
+}
+
+@media (max-width: 750px) {
+    footer {
+       flex-direction: column-reverse;
+       align-items: flex-start;
+      }
+}

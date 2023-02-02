@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/nav-bar.css" />
+    <link rel="stylesheet" href="styles/entrance.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/pricing.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div id="logo">
+          <a href="#entrance">
+            <img
+              src="Images/electric guitar.jpeg"
+              alt="guitar"
+              id="header-img"
+            />
+          </a>
+          <a href="#entrance">
+            <h1>Original Guitars</h1>
+          </a>
+        </div>
+
+        <div id="options">
+          <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="entrance">
+        <div>
+          <img src="Images/old guitar.jpeg" alt="old guitar" />
+        </div>
+
+        <form
+          action=""
+          id="form"
+        >
+          <ul>
+            <li>Handcrafted</li>
+            <li>Home-made</li>
+            <li>Masterpieces.</li>
+          </ul>
+          <div>
+            <input
+              type="email"
+              name="user-email"
+              id="email"
+              placeholder="    Email address"
+              required
+            />
+            <input type="submit" id="submit" value="Get Started" />
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section id="features">
+        <ul>
+          <li class="grid">
+            <img class="image" src="Images/premium.png" alt="premium badge" />
+            <p class="title">Premium Materials</p>
+            <p class="text">
+              Our guitars use the shiniest strings which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </li>
+          <li class="grid">
+            <img class="image" src="Images/shipping.png" alt="shipping truck" />
+            <p class="title">Fast Shipping</p>
+            <p class="text">
+              We make sure you receive your guitar as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </li>
+          <li class="grid">
+            <img
+              class="image"
+              src="Images/quality.png"
+              alt="quality assurance"
+            />
+            <p class="title">Quality Assurance</p>
+            <p class="text">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/WSdEuYDztvw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="youtube-video"
+        ></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="price-block">
+          <h2 class="type">Solid</h2>
+          <p class="price">$200</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, reprehenderit.
+          </p>
+          <button class="button"><strong>SELECT</strong></button>
+        </div>
+        <div class="price-block">
+          <h2 class="type">Semi-hollow</h2>
+          <p class="price">$300</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, reprehenderit.
+          </p>
+          <button class="button"><strong>SELECT</strong></button>
+        </div>
+        <div class="price-block">
+          <h2 class="type">Hollow</h2>
+          <p class="price">$500</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, reprehenderit.
+          </p>
+          <button class="button"><strong>SELECT</strong></button>
+        </div>
+      </section>
+
+      <section id="survey-access">
+        <a id="survey-btn" href="./survey-form/form.html">Let us understand &nbsp;<strong>YOU</strong>!</a> /
+      </section>
+
+    </main>
+    <hr id="line" />
+    <footer>
+      <p>
+        Copyright &copy;2022. Original Guitars Corporation. All Rights Reserved.
+      </p>
+      <ul>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms of Use</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
