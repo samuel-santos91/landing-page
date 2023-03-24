@@ -33,6 +33,6 @@ footer a:hover {
 @media (max-width: 750px) {
     footer {
        flex-direction: column-reverse;
-       align-items: flex-start;
+       align-items: center;
       }
 }
