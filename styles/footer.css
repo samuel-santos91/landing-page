@@ -12,6 +12,10 @@ footer {
   align-items: center;
 }
 
+footer p {
+  text-align: center;
+}
+
 footer ul {
   list-style-type: none;
   display: flex;
